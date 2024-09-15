@@ -13,7 +13,10 @@ setTimeout(() => {
 
 // Print after 8 seconds
 setTimeout(() => {
-  console.log("Printed after 8 seconds");
+  console.log("Printed after 9 seconds");
 }, 8000);
 
 console.log("Program ended (Waiting for timeouts...)");
+
+
+
