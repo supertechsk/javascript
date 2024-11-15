@@ -11,7 +11,7 @@
   };
   y(x); // here y is higher order fun. and x is callback fun.
 
-/////////////////////// Example
+// Example
 
 /*
 const radius =[3, 1, 2, 4];
