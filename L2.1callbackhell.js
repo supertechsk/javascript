@@ -1,16 +1,16 @@
-// callback **********************
+ // callback **********************
 
- console.log("Namaste");
+ console.log("Namaste javascript");
  // delay fo 5 sec. *************
 
  setTimeout(function(){     // use callback into setTimout
     console.log("Javascript 2");
     
- },4000);
+ },5000);
  console.log("javascript");
  console.log("Season 2"); 
 
- ///  nested callback fun.
+ ///  nested callback function.
 
  const cart = ["shoes", "pants", "kurta"];
 
