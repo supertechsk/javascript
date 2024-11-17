@@ -12,7 +12,7 @@
  //// create a promise ********************
 
  function createOrder(cart){
-    const pr = new Promise(function(resolve , reject){   // this is a way to create promise
+    const promise  = new Promise(function(resolve , reject){   // this is a way to create promise
     
      //createOrder
      //validateCart
@@ -20,7 +20,7 @@
      if
     })
 
-    return pr; 
+    return promise; 
  }
 
  
