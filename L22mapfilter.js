@@ -3,8 +3,8 @@ const arr = [5, 1, 3, 2, 6];
 
 // for double array 
 
-function double(arr){
-    return arr * 2; 
+function double(x){
+    return x * 2; 
 }
 
 const output = arr.map(double);
@@ -38,10 +38,10 @@ function iseven(a){
 }
 console.log(arr.filter(iseven));
 
-// another way to write fun
+// another way to write function
 console.log(arr.filter((b) => b%2!==0 ))
 
-// nonfuntional way write a fun. for using reduce 
+// nonfuntional way to  write a fun. for using reduce 
 
 // sum of max
 
@@ -56,21 +56,21 @@ findSum(arr);
 
 // find same value (sum) of array by using reduce();
 
-const Output = arr.reduce(function(acc, curr){
+const Output3 = arr.reduce(function(acc, curr){
     acc += curr;
     return acc;
 
 },0);
-console.log(Output);
+console.log(Output3);
 
 //find max by using reduce fun 
-const output3 = arr.reduce(function(max,curr){
-    if(curr> max)
+const output4 = arr.reduce(function(max,curr){ 
+    if(curr> max) 
       {max= curr}
       return max;
 
 },0);
-console.log(output3);
+console.log(output4);
 
 // use of tricky map(); ///****************** */
 
@@ -84,20 +84,20 @@ const users =[
 // find list of full name 
 // /***** */ like ... ["aman saini" , "ajay sharma"]
 
-const outpt = users.map(x =>{
+const output5 = users.map(x =>{
      return x.firstName + " " + x.lastName;
      // another way to write 
      //(x => x.firstName + " " + x.lastName );
 } )// here  function will run against array and x is represent each line (obj.)
 
-console.log(outpt);
+console.log(output5);
 
 //*************** find how many user are a particular age
 // like {26:2,75:1,50:1}
 
 // here we will use reduce  because here we will find a single obj
 
-const outputt = users.reduce(function(acc , curr){
+const output6 = users.reduce(function(acc , curr){
  
     if(acc[curr.age]){
         acc[curr.age] = ++acc[curr.age]
@@ -108,7 +108,7 @@ const outputt = users.reduce(function(acc , curr){
     }
     return acc;
 },{});
-console.log(outputt);
+console.log(output6);
 
 // ********** find first name which age < 30 
 // chaining map, filter and reduce  
