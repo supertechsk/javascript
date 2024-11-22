@@ -1,5 +1,5 @@
 setTimeout(function(){
-    console.log("timer")
+    console.log("first timer function")
 
 },5000);
 function x(y){
@@ -7,6 +7,6 @@ function x(y){
     y();
 
 }
-x(function y(){         // callback function passed in x fun. 
+x(function y(){         // callback function passed inside x fun. 
     console.log("y") 
 });
