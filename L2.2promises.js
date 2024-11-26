@@ -1,4 +1,4 @@
-/*const cart  = ["shoes","pants","kurta"];
+const cart  = ["shoes","pants","kurta"];
 
 createOrder(cart, function(orderId){
 
@@ -13,7 +13,7 @@ promise.then(function(orderId){
     proceedToPayment(orderId);
 });
 
-*/
+
 
 // actual code of js 
 
