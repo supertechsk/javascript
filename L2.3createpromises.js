@@ -5,22 +5,22 @@
  const promise = createOrder() //orderId
 
  promise.then(function(){
-    proceedToPayment(orderId);
+    proceedToPayment(orderId);          
  })
     */
 
- //// create a promise ********************
+ // create a promise ********************
 
  function createOrder(cart){
-    const promise  = new Promise(function(resolve , reject){   // this is a way to create promise
+    const promise  = new Promise(function(resolve , reject){   // this is a way to create promise  
     
      //createOrder
      //validateCart
      //orderId     
-     if
+     if() 
     })
 
-    return promise; 
+    return promise;    
  }
 
  
